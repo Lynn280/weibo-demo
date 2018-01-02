@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿腾讯微博效果</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<script type="text/javascript" src='demo.js'></script>
+</head>
+<body>
+<div class="container">
+	<form class="enter-box">
+		<p class="enter-tips">来，说说你想做什么，想什么</p>
+		<div class="name-box">
+			<input type="text" name="name" placeholder="输入您的名字" class="enter-name" id="enter-name">
+			<div class="face-list" id="face-list">
+				<img src="img/face1.gif" class="select-face">
+				<img src="img/face2.gif">
+				<img src="img/face3.gif">
+				<img src="img/face4.gif">
+				<img src="img/face5.gif">
+				<img src="img/face6.gif">
+				<img src="img/face7.gif">
+				<img src="img/face8.gif">
+			</div>
+		</div>
+		<textarea class="enter-msg" id="enter-msg" onkeyup="checkRestLength(this.value,140)"></textarea>
+		<p class="enter-submit clearfix"><input type="button" name="广播" value="" title="快捷键 Ctrl+Enter" class="submit-btn" id="submit-btn"><span id="limit_tips">还能输入<i>140</i>个字</span></p>
+	</form>
+	<div class="text-box">
+		<p class="title"><span>大家在说</span></p>
+		<ul class="msg-list" id="msg-list">
+			<li>
+				<div class="face-box"><img src="img/face1.gif"></div>
+				<div class="text">
+					<p><span class="user-name">日久生情：</span>新增删除广播功能</p>
+					<p class="time-delete"><span>05月16日 12:50</span><span class="delete" onclick="deleteMSG(event)">删除</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="face-box"><img src="img/face1.gif"></div>
+				<div class="text">
+					<p><span class="user-name">日久生情：</span>新增Ctrl+Enter快捷键发送广播。</p>
+					<p class="time-delete"><span>05月16日 12:50</span><span class="delete" onclick="deleteMSG(event)">删除</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="face-box"><img src="img/face1.gif"></div>
+				<div class="text">
+					<p><span class="user-name">日久生情：</span>新增选择头像功能。</p>
+					<p class="time-delete"><span>05月16日 12:50</span><span class="delete" onclick="deleteMSG(event)">删除</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="face-box"><img src="img/face1.gif"></div>
+				<div class="text">
+					<p><span class="user-name">日久生情：</span>增加了记录广播时间的功能</p>
+					<p class="time-delete"><span>05月16日 12:50</span><span class="delete" onclick="deleteMSG(event)">删除</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="face-box"><img src="img/face1.gif"></div>
+				<div class="text">
+					<p><span class="user-name">日久生情：</span>增加了输入字符检测功能，英文/半角为半个字符，汉字/全角为一个字符。</p>
+					<p class="time-delete"><span>05月16日 12:50</span><span class="delete" onclick="deleteMSG(event)">删除</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="face-box"><img src="img/face1.gif"></div>
+				<div class="text">
+					<p><span class="user-name">日久生情：</span>仿腾讯微博效果，欢迎大家测试！</p>
+					<p class="time-delete"><span>05月16日 12:50</span><span class="delete" onclick="deleteMSG(event)">删除</span></p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

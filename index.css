@@ -1,0 +1,33 @@
+body,div,form,p,input,img,textarea,i,ul,span,li{margin: 0;padding: 0;}
+ul,li{list-style-type: none;}
+body{background: #3A3C3B;}
+.clearfix{clear: both;zoom:1;content: "";overflow: hidden;}
+.container{width: 500px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;background: #fff;margin: 10px auto;font-family: '微软雅黑';color: #333;font-size: 12px;}
+.enter-box{padding: 0 20px;background: url(img/boxBG.jpg) left bottom repeat-x;}
+.enter-tips{font-size: 18px;line-height: 48px;}
+.name-box{position: relative;}
+.enter-name,.enter-msg{color: #777;line-height: 28px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border: 1px solid #D0D0D0;}
+.enter-name{width: 186px;height: 28px;text-indent: 5px;}
+.face-list{position: absolute;top: 0;right: 0;cursor: pointer;}
+.face-list img{width: 28px;height: 28px;border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;margin-left: 2px;opacity: 0.5;filter: alpha(opacity=50);}
+.face-list img:hover,
+.face-list .select-face{width: 26px;height:26px;border: 1px solid #F60;opacity: 1;filter: alpha(opacity=100);}
+.enter-msg{width: 450px;height: 62px;margin: 10px 0;padding: 5px;resize: none;display: block;}
+.enter-submit{color: #999;padding-bottom: 16px;}
+.enter-submit input,.enter-submit span{line-height: 30px;float: right;}
+.enter-submit i{font:26px/30px Georgia, Tahoma, Arial;padding: 0 5px;vertical-align: top;}
+.submit-btn{width: 112px;height: 30px;background: url(img/btn.png) 0 0 no-repeat;border: none;margin-left: 12px;vertical-align: middle;cursor: pointer;}
+.submit-btn:hover{background-position: 0 -30px ;}
+.text-box{padding: 10px;}
+.title{width: 472px;height: 25px;background: #E3EAEc;border: 1px solid #DEE4E7;padding-top: 8px;padding-left: 8px;}
+.title span{display: block;width: 86px;height: 28px;background: #fff;text-align: center;font-size: 14px;line-height: 28px;}
+.msg-list li{min-height: 50px;padding: 10px 14px 10px 10px;border-bottom: 1px dashed #D8D8D8;position: relative;}
+.msg-list li:hover{background: #F5F5F5;}
+.face-box img{width: 50px;height: 50px;border: 1px solid #CCC;border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;position: absolute;top: 10px;left: 10px;}
+.text{margin-left: 60px;line-height: 18px;}
+.text p{word-wrap: break-word;}
+.user-name{color: #2B4A78;margin-right: 5px;}
+.time-delete{margin-top: 5px;color: #889DB6;}
+.delete{position: relative;float: right;display: none;cursor: pointer;}
+.msg-list li:hover .delete{display: inline;}
+.delete:hover{text-decoration: underline;}
